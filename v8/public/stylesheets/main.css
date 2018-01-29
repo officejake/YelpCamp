@@ -1,0 +1,15 @@
+.img-responsive {
+    width: 100%;
+}
+
+.card-header {
+    padding: 0;
+}
+
+#delete-btn{
+    display: inline;
+}
+
+#author{
+    padding-bottom: 10px;
+}
