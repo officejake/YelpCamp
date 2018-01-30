@@ -20,7 +20,7 @@
                     <h5 class="card-title"><a><%= campground.name%></a></h5>
                     <div class="d-flex text-muted" id="author">
                         <div class="mr-auto">Submitted By: <%= campground.author.username %></div>
-                        <div>$9.00/night</div>
+                        <div>$<%= caampground.price %>/a night</div>
                     </div>
                     <div class="btn-group" role="group">
                         <% if(currentUser && campground.author.id.equals(currentUser._id)) { %>
